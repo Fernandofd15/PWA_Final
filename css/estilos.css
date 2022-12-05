@@ -1,0 +1,197 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+}
+
+.clearfix{
+    clear: both;
+    float:none;
+}
+.logo{
+    width: 85px;
+
+}
+
+.contenedor{
+    width: 85%;
+    margin: 0px auto;
+   
+}
+
+#encabezado{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu a {
+    display: block;
+    padding: 2em;
+    background-color: #FF8000;
+    text-decoration: none;
+    color: #191C26;
+}
+.menu a:hover {
+    background-color: #CC673B;
+}
+.menu ul li ul {
+    display: none;
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
+
+
+
+
+
+
+.slide{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+
+.subheader{
+    height: 150px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.714);
+    text-align: center;
+}
+
+.subheader h2{
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 140px;
+    color: red;
+}
+
+.formaServicios{
+    width: 25%;
+    height: 300px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 221, 221);
+    float: left;    
+    background-color: rgba(231, 230, 230, 0.235);  
+    text-align: center; 
+    box-shadow: 5px 10px rgb(233, 228, 228);
+}
+
+.formaServicios img{
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.formaServicios h2{
+    margin-bottom: 10px; 
+    color:rgb(216, 28, 28);  
+}
+
+.formaServicios p{
+    color:#444;
+}
+
+.forma{
+    width: 25%;
+    height: 500px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(226, 221, 221);
+    float: left;    
+    background-color: rgba(231, 230, 230, 0.235);  
+    text-align: center;   
+    box-shadow: 5px 10px rgb(233, 228, 228); 
+}
+
+.forma h2{
+    margin-bottom: 10px; 
+    color:rgb(216, 28, 28);  
+}
+
+.forma p{
+    color:#444;
+}
+
+#pie{
+    background-color: #333;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+}
+
+#pie .subheader{
+    color:white;
+}
+
+#pie ul{
+    margin: 0px auto;
+    width: 220px;
+    display: block;
+    list-style: none;
+    margin-bottom: 20px
+}
+
+#pie li{
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pie .subheader h2{
+    color:white;   
+}
+#pie p{
+    margin-top: 5px;
+}
+#pie li:hover{
+    opacity: 0.8;
+    transform: scale(1.2,1.2);
+}
+
+@media(max-width:1200px){
+    #logo{
+        width: 40%;
+    }
+}
+
+@media(max-width:844px){
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1472px){
+    
+    .formaServicios{
+        width: 100%;
+
+    }
+
+    .forma{
+        width: 100%;
+    }
+} 
+
