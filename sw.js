@@ -16,8 +16,6 @@ self.addEventListener('install', e =>{
                 'img/rx600.png',
                 'img/slide.jpeg',
                 'img/twiter.png',
-                'video/Far Cry 6.mp4',
-                'video/God of War.mp4',
                 'video/Halo_Infinite.mp4',
                 'js/app.js'
             ])
